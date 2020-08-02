@@ -15,7 +15,7 @@
 
 ## Preview
 
-You can access this project by clicking [here](https://github.com/Otoru).
+You can access this project by clicking [here](https://otoru.github.io/TaskList).
 
 ## Tools used
 
