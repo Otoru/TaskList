@@ -32,6 +32,7 @@ export const Text = styled.input`
       return callback(0.2, theme.colors.info);
     }};
   color: ${({ theme }) => theme.colors.text.default};
+  transition-property: top, font-zise;
   background-color: transparent;
   transition: 0.2s ease-in-out;
   padding: 0.25rem 0.5rem;
