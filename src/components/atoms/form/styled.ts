@@ -14,7 +14,7 @@ export const Span = styled.span`
   border-right: 0.25rem solid ${({ theme }) => theme.colors.secondary};
   border-left: 0.25rem solid ${({ theme }) => theme.colors.secondary};
   background-color: ${({ theme }) => theme.colors.secondary};
-  transition: 0.2s ease-in-out;
+  transition: top,font-zise 0.2s ease-in-out;
   border-radius: 1rem;
   width: max-content;
   position: absolute;
@@ -32,7 +32,6 @@ export const Text = styled.input`
       return callback(0.2, theme.colors.info);
     }};
   color: ${({ theme }) => theme.colors.text.default};
-  transition-property: top, font-zise;
   background-color: transparent;
   transition: 0.2s ease-in-out;
   padding: 0.25rem 0.5rem;
